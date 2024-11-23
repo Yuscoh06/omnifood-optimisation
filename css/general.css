@@ -116,6 +116,7 @@ body {
 
 .grid--3-cols {
   grid-template-columns: repeat(3, 1fr);
+  padding: 0 9.7rem;
 }
 
 .grid--4-cols {
@@ -147,7 +148,7 @@ body {
 }
 
 .heading-secondary {
-  font-size: 4.4rem;
+  font-size: 4rem;
   line-height: 1.2;
   margin-bottom: 9.6rem;
 }

@@ -10,7 +10,7 @@
 
   /* Because we want header to be sticky later */
   height: 9.6rem;
-  padding: 0 4.8rem;
+  padding: 0 4.5rem;
   position: relative;
 }
 
@@ -82,7 +82,7 @@
 
 .section-hero {
   background-color: #fdf2e9;
-  padding: 4.8rem 0 9.6rem 0;
+  padding: 4.8rem 1rem 10rem 2rem;
 }
 
 .hero {
@@ -159,6 +159,7 @@
 .logos {
   display: flex;
   justify-content: space-around;
+  padding: 0 7.7rem;
 }
 
 .logos img {
@@ -172,7 +173,7 @@
 /**************************/
 
 .section-how {
-  padding: 9.6rem 0;
+  padding: 9.6rem 6.5rem;
 }
 
 .step-number {
@@ -242,6 +243,8 @@
   border-radius: 11px;
   overflow: hidden;
   transition: all 0.4s;
+  font-size: 1rem;
+  
 }
 
 .meal:hover {
@@ -308,6 +311,7 @@
 
 .meal-img {
   width: 100%;
+ 
 }
 
 .all-recipes {
@@ -359,6 +363,7 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1.6rem;
   padding: 1.6rem;
+  
 }
 
 .gallery-item {
@@ -376,16 +381,15 @@
 }
 
 /**************************/
-/* MEALS SECTION */
+/* PRICE SECTION */
 /**************************/
 
 .section-pricing {
-  padding: 9.6rem 0;
+  padding: 9.2rem 6.5rem;
 }
 
 .pricing-plan {
   border-radius: 11px;
-
   width: 75%;
 }
 
@@ -463,8 +467,8 @@
 
 .feature-icon {
   color: #e67e22;
-  height: 3.2rem;
-  width: 3.2rem;
+  height: 3rem;
+  width: 3rem;
   background-color: #fdf2e9;
   margin-bottom: 3.2rem;
   padding: 1.6rem;
@@ -472,14 +476,14 @@
 }
 
 .feature-title {
-  font-size: 2.4rem;
+  font-size: 2rem;
   color: #333;
   font-weight: 700;
   margin-bottom: 1.6rem;
 }
 
 .feature-text {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   line-height: 1.8;
 }
 
@@ -492,7 +496,7 @@
   /* padding: 9.6rem 0 12.8rem 0; */
 
   /* top / horizontal / left */
-  padding: 4.8rem 0 12.8rem;
+  padding: 3.2rem 6.5rem 10rem 6.5rem;
 }
 
 .cta {
@@ -505,10 +509,11 @@
 
   background-image: linear-gradient(to right bottom, #eb984e, #e67e22);
   overflow: hidden;
+
 }
 
 .cta-text-box {
-  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  padding: 4.8rem 6.4rem 6rem 6rem;
   color: #45260a;
 }
 
@@ -576,7 +581,7 @@
 /**************************/
 
 .footer {
-  padding: 12.8rem 0;
+  padding: 12.8rem 8rem;
   border-top: 1px solid #eee;
 }
 
@@ -606,8 +611,8 @@
 }
 
 .copyright {
-  font-size: 1.4rem;
-  line-height: 1.6;
+  font-size: 1.2rem;
+  line-height: 1;
   color: #767676;
   margin-top: auto;
 }
@@ -620,12 +625,13 @@
 
 .contacts {
   font-style: normal;
-  font-size: 1.6rem;
-  line-height: 1.6;
+  font-size: 0.5rem;
+  line-height: 1.5;
 }
 
 .address {
-  margin-bottom: 2.4rem;
+  margin-bottom: 4.5rem;
+  font-size: 1.4rem;
 }
 
 .footer-nav {
@@ -638,7 +644,7 @@
 .footer-link:link,
 .footer-link:visited {
   text-decoration: none;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   color: #767676;
   transition: all 0.3s;
 }
