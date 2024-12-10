@@ -18,6 +18,17 @@ function checkFlexGap() {
 }
 checkFlexGap();
 
+
+/******************************************/
+/********SMOOTH SCROLLING ANIMATION********/
+const allLinks = document.querySelectorAll('a:link');
+console.log(allLinks);
+/******************************************/
+
+
+
+ 
+
 // https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js
 
 /*
